@@ -7,4 +7,3 @@ print("\nValor de la cadena de texto:", texto)
 print("Valor del número entero:", numeroEntero)
 print("Valor del número decimal:", numeroDecimal)
 print("Valor booleano:", valorBooleano)
-
