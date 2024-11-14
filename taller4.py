@@ -1,9 +1,11 @@
-mi_lista = [42, "Hola", 3.14, True, None, [1, 2, 3], {"clave": "valor"}, (5, 6), False, "Python"]
-print("Elemento en el índice 1:", mi_lista[1]) 
-mi_lista[2] = 7.56
-print("Lista después de modificar el tercer elemento:", mi_lista)
-
-mi_lista.append("El Elemento")  
-print("La lista después de agregar un nuevo elemento:", mi_lista)
-mi_lista.remove("Hola")  
-print("Lista después de eliminar un elemento:", mi_lista)
+lista= [1, 2, 3, 4, 5, 6, 7, 8]
+lista[0]= "agua"
+lista.append ("fabian")
+lista2=[]
+dato=input("Ingresa dato:")
+lista2.append (dato)
+dato1=input("ingrese dato:")
+lista2.append (dato)
+print(lista2)
+lista2.remove(dato)
+print(lista2)
